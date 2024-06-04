@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		116F3A8B29ED82700013B9FF /* Indices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116F3A8A29ED82700013B9FF /* Indices.swift */; };
 		11835A8C29AD4FFC003D764C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11835A8B29AD4FFC003D764C /* Preview Assets.xcassets */; };
-		11835A9329AD59C8003D764C /* ObjectDetectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11835A9229AD59C8003D764C /* ObjectDetectionView.swift */; };
+		11835A9329AD59C8003D764C /* SegmentationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11835A9229AD59C8003D764C /* SegmentationView.swift */; };
 		11835A9529AD5A08003D764C /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11835A9429AD5A08003D764C /* Presenter.swift */; };
 		11835A9729AD6760003D764C /* DeviceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11835A9629AD6760003D764C /* DeviceManager.swift */; };
 		11835A9B29AD679E003D764C /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11835A9A29AD679E003D764C /* MetalKit.framework */; };
@@ -42,13 +42,15 @@
 		11F76ED829B6753C00BDE32D /* TransformMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F76ED729B6753C00BDE32D /* TransformMatrix.swift */; };
 		11F76EDA29B675B400BDE32D /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F76ED929B675B400BDE32D /* PreviewView.swift */; };
 		11F76EDC29B678F100BDE32D /* Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F76EDB29B678F100BDE32D /* Frame.swift */; };
+		22152FCA2C0F6F9D0061F67B /* segment.amaranth_grill_2560.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 22152FC92C0F6F9D0061F67B /* segment.amaranth_grill_2560.mlpackage */; };
+		22152FCC2C0F7BE80061F67B /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22152FCB2C0F7BE80061F67B /* SplashScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		116F3A8A29ED82700013B9FF /* Indices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Indices.swift; sourceTree = "<group>"; };
 		11835A8B29AD4FFC003D764C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		11835A8F29AD51C8003D764C /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
-		11835A9229AD59C8003D764C /* ObjectDetectionView.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = ObjectDetectionView.swift; sourceTree = "<group>"; tabWidth = 2; };
+		11835A9229AD59C8003D764C /* SegmentationView.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = SegmentationView.swift; sourceTree = "<group>"; tabWidth = 2; };
 		11835A9429AD5A08003D764C /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
 		11835A9629AD6760003D764C /* DeviceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceManager.swift; sourceTree = "<group>"; };
 		11835A9829AD6796003D764C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -85,6 +87,8 @@
 		11F76ED729B6753C00BDE32D /* TransformMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformMatrix.swift; sourceTree = "<group>"; };
 		11F76ED929B675B400BDE32D /* PreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
 		11F76EDB29B678F100BDE32D /* Frame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frame.swift; sourceTree = "<group>"; };
+		22152FC92C0F6F9D0061F67B /* segment.amaranth_grill_2560.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = segment.amaranth_grill_2560.mlpackage; sourceTree = "<group>"; };
+		22152FCB2C0F7BE80061F67B /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,11 +153,12 @@
 			isa = PBXGroup;
 			children = (
 				11D5090F29AD4AE500AA8804 /* MainView.swift */,
-				11835A9229AD59C8003D764C /* ObjectDetectionView.swift */,
+				11835A9229AD59C8003D764C /* SegmentationView.swift */,
 				11F76ED929B675B400BDE32D /* PreviewView.swift */,
 				11835A9429AD5A08003D764C /* Presenter.swift */,
 				11F76EDB29B678F100BDE32D /* Frame.swift */,
 				11F76ED329B673EF00BDE32D /* Renderer.swift */,
+				22152FCB2C0F7BE80061F67B /* SplashScreen.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -200,6 +205,7 @@
 		11835ABB29AD77D7003D764C /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				22152FC92C0F6F9D0061F67B /* segment.amaranth_grill_2560.mlpackage */,
 				11835ABC29AD77E1003D764C /* YOLOv8n.mlmodel */,
 				11835ABE29AD77E8003D764C /* YOLOv8nseg.mlmodel */,
 				11B7AF9D29EEB4F90040630B /* YOLOv8s.mlmodel */,
@@ -333,11 +339,13 @@
 				11F76EDC29B678F100BDE32D /* Frame.swift in Sources */,
 				11835A9729AD6760003D764C /* DeviceManager.swift in Sources */,
 				11835A9F29AD685E003D764C /* ObjectDetector.swift in Sources */,
-				11835A9329AD59C8003D764C /* ObjectDetectionView.swift in Sources */,
+				11835A9329AD59C8003D764C /* SegmentationView.swift in Sources */,
+				22152FCC2C0F7BE80061F67B /* SplashScreen.swift in Sources */,
 				11835AB029AD6BF3003D764C /* MTLComputePipelineState.swift in Sources */,
 				116F3A8B29ED82700013B9FF /* Indices.swift in Sources */,
 				11835ABF29AD77E8003D764C /* YOLOv8nseg.mlmodel in Sources */,
 				11B7AF9E29EEB4FA0040630B /* YOLOv8s.mlmodel in Sources */,
+				22152FCA2C0F6F9D0061F67B /* segment.amaranth_grill_2560.mlpackage in Sources */,
 				11DBDA0829B9F24C0011844A /* BBox.swift in Sources */,
 				11F76EDA29B675B400BDE32D /* PreviewView.swift in Sources */,
 				11835A9529AD5A08003D764C /* Presenter.swift in Sources */,
@@ -487,7 +495,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"YOLOv8/Resources/Preview Content\"";
-				DEVELOPMENT_TEAM = KTK2682S7D;
+				DEVELOPMENT_TEAM = KQ72SQ9H7Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = YOLOv8/Resources/Info.plist;
@@ -496,14 +504,14 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIRequiresFullScreen = YES;
-				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.moonl1ght.YOLOv8;
+				PRODUCT_BUNDLE_IDENTIFIER = fosteman.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -523,7 +531,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"YOLOv8/Resources/Preview Content\"";
-				DEVELOPMENT_TEAM = KTK2682S7D;
+				DEVELOPMENT_TEAM = KQ72SQ9H7Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = YOLOv8/Resources/Info.plist;
@@ -532,14 +540,14 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIRequiresFullScreen = YES;
-				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.moonl1ght.YOLOv8;
+				PRODUCT_BUNDLE_IDENTIFIER = fosteman.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;

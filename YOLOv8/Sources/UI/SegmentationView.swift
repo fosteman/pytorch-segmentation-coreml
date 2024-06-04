@@ -24,7 +24,8 @@ struct ObjectDetectionView: View {
       } else if loadingFailed {
         Text("Model loading failed")
       } else {
-        Text("Loading model...")
+        ProgressView() // SwiftUI's built-in circular progress indicator
+            .progressViewStyle(CircularProgressViewStyle(tint: .gray))
       }
       VStack {
         HStack {

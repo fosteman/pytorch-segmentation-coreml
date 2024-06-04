@@ -63,8 +63,8 @@ final class PreviewViewController: UIViewController {
     }
   }
 
-  override func viewWillDisappear(_ animated: Bool) {
-    presenter.cameraController.stopSession()
+override func viewDidDisappear(_ animated: Bool) {
+        presenter.cameraController.stopSession()
   }
 
   override func viewDidLoad() {
